@@ -12,3 +12,7 @@ ro.camera.enableCamera1MaxZsl=1
 
 # Fingerprint
 ro.hardware.fingerprint=goodix
+
+# Google
+ro.com.google.ime.kb_pad_port_l=11
+ro.com.google.ime.kb_pad_port_r=11
