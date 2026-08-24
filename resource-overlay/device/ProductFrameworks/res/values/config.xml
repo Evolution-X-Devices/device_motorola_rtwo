@@ -77,6 +77,8 @@
     <!-- The default peak refresh rate for a given device. Change this value if you want to prevent
          the framework from using higher refresh rates, even if display modes with higher refresh
          rates are available from hardware composer. Only has an effect if the value is
-         non-zero. -->
-    <integer name="config_defaultPeakRefreshRate">60</integer>
+         non-zero.
+         rtwo ships a 165 Hz pOLED panel, so don't cap the panel at 60 Hz out of the box.
+         The user can still lower it from Settings -> Display -> Peak refresh rate. -->
+    <integer name="config_defaultPeakRefreshRate">165</integer>
 </resources>

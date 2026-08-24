@@ -21,6 +21,11 @@ PRODUCT_SHIPPING_API_LEVEL := $(BOARD_SHIPPING_API_LEVEL)
 # Characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Device as webcam
+# The QTI gadget HAL already advertises uvc compositions in usb_compositions.conf,
+# so expose the "Webcam" USB mode instead of hiding it.
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
+
 # Inherit from motorola sm8550-common
 $(call inherit-product, device/motorola/sm8550-common/common.mk)
 
