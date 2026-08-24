@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Settings -> About phone -> Android version -> Maintained by.
+         Defaults to "Unknown" in Evolution X, so it has to be set per device. -->
+    <string name="build_maintainer_summary" translatable="false">Luuxis</string>
+
+    <!-- Link opened by the "Donate" entry next to the maintainer name. -->
+    <string name="build_maintainer_donate_url" translatable="false">https://github.com/luuxis</string>
+</resources>
