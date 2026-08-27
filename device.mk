@@ -116,5 +116,7 @@ ODM_MANIFEST_NP_FILES := \
     $(LOCAL_PATH)/vintf/manifest_np.xml \
     device/motorola/sm8550-common/vintf/manifest_ss.xml
 
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/rtwo/rtwo-vendor.mk)

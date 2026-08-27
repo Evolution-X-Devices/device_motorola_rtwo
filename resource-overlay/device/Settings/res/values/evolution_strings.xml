@@ -9,5 +9,5 @@
     <string name="build_maintainer_summary" translatable="false">Luuxis</string>
 
     <!-- Link opened by the "Donate" entry next to the maintainer name. -->
-    <string name="build_maintainer_donate_url" translatable="false">https://github.com/luuxis</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://paypal.me/luuxis82</string>
 </resources>
